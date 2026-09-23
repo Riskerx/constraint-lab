@@ -1,0 +1,3019 @@
+{
+  "passed": true,
+  "seed": 2026,
+  "random_cases_per_family": 60,
+  "differential_cases": 151,
+  "regressions": "engine CTest plus limits, trace, replay, input errors, determinism",
+  "cases": [
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 4
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 3,
+      "constraint_checks": 4
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 28
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 6,
+      "constraint_checks": 23
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "873817bb6fe7c8d93a27b8b2b19a27a3c640f523c4a25979e9d5cc903f54a7da",
+      "nodes": 3,
+      "constraint_checks": 212
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "873817bb6fe7c8d93a27b8b2b19a27a3c640f523c4a25979e9d5cc903f54a7da",
+      "nodes": 17,
+      "constraint_checks": 162
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 10,
+      "solutions_sha256": "2b5616b94b3bd3698a707d765c849e1d9edbf66360f31ce1c3272095aa809921",
+      "nodes": 16,
+      "constraint_checks": 906
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 10,
+      "solutions_sha256": "2b5616b94b3bd3698a707d765c849e1d9edbf66360f31ce1c3272095aa809921",
+      "nodes": 54,
+      "constraint_checks": 1045
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "c44bfc8ead927f584eacc0e1d2656ee539c947b055e5da2e7b0af340b565416e",
+      "nodes": 13,
+      "constraint_checks": 2619
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "c44bfc8ead927f584eacc0e1d2656ee539c947b055e5da2e7b0af340b565416e",
+      "nodes": 153,
+      "constraint_checks": 6004
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 40,
+      "solutions_sha256": "26eee2fa7d8c44726db8db76eecd5a4caf5ef65678ae9be7401ee978f4a49c31",
+      "nodes": 80,
+      "constraint_checks": 10898
+    },
+    {
+      "command": [
+        "nqueens",
+        "8",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 92,
+      "solutions_sha256": "357df4d097450f5206a0b9d5e073daa497d7b09d6fd1d605d2b145bbf6d718a1",
+      "nodes": 245,
+      "constraint_checks": 41936
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "3:4",
+        "--fix",
+        "4:3",
+        "--block",
+        "0:4",
+        "--block",
+        "3:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 24
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--fix",
+        "0:0",
+        "--block",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "3:0",
+        "--fix",
+        "3:4",
+        "--block",
+        "3:3",
+        "--block",
+        "4:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "4:3",
+        "--block",
+        "1:4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "7b7d75f7fe0b12943ab806f39b43298b78a5e1f475c1a1259e87ecffc7117bfc",
+      "nodes": 1,
+      "constraint_checks": 89
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--block",
+        "2:0",
+        "--block",
+        "2:2",
+        "--block",
+        "3:1",
+        "--block",
+        "3:2",
+        "--block",
+        "4:0",
+        "--block",
+        "5:2",
+        "--block",
+        "6:0",
+        "--block",
+        "6:1",
+        "--block",
+        "6:6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 10,
+      "solutions_sha256": "96521d176e32d7f83722a916da345671e026dc9e79064bb209cfc9694a03bbc8",
+      "nodes": 19,
+      "constraint_checks": 2716
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "2:2",
+        "--block",
+        "3:3",
+        "--block",
+        "3:5",
+        "--block",
+        "4:1",
+        "--block",
+        "4:6",
+        "--block",
+        "5:4",
+        "--block",
+        "6:5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 9,
+      "solutions_sha256": "c78a95de27ec0bb99c82d9f60505380de291fd823a68ae0485ee6463da52c8c0",
+      "nodes": 22,
+      "constraint_checks": 3509
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "2:3",
+        "--block",
+        "0:0",
+        "--block",
+        "0:6",
+        "--block",
+        "1:1",
+        "--block",
+        "1:2",
+        "--block",
+        "2:2",
+        "--block",
+        "4:1",
+        "--block",
+        "4:3",
+        "--block",
+        "4:5",
+        "--block",
+        "4:6",
+        "--block",
+        "5:3",
+        "--block",
+        "5:6",
+        "--block",
+        "6:1",
+        "--block",
+        "6:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "f692a7f491c3f1c7d44cb7fe33e1cbff0cce87c1f0e3ef62cf0659f7631755dd",
+      "nodes": 3,
+      "constraint_checks": 436
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--block",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "2:3",
+        "--block",
+        "3:3",
+        "--block",
+        "4:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "81315ca422431d1a5e1d2ee2c62c048c9fa3911fba9ce394620353f98a39c2ce",
+      "nodes": 3,
+      "constraint_checks": 133
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--fix",
+        "0:2",
+        "--fix",
+        "1:0",
+        "--block",
+        "0:2",
+        "--block",
+        "1:1",
+        "--block",
+        "1:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "1:0",
+        "--block",
+        "2:3",
+        "--block",
+        "3:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "d02532560f279acb47fb5b0f01a464fbf4e4327a9c5418fb4df3866a6a1f905d",
+      "nodes": 1,
+      "constraint_checks": 75
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--fix",
+        "0:1",
+        "--fix",
+        "4:0",
+        "--block",
+        "1:2",
+        "--block",
+        "5:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 46
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--fix",
+        "0:5",
+        "--block",
+        "0:0",
+        "--block",
+        "0:5",
+        "--block",
+        "1:5",
+        "--block",
+        "3:0",
+        "--block",
+        "3:1",
+        "--block",
+        "4:5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--fix",
+        "0:2",
+        "--fix",
+        "2:0",
+        "--block",
+        "0:0",
+        "--block",
+        "0:2",
+        "--block",
+        "2:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--fix",
+        "0:2",
+        "--block",
+        "0:0",
+        "--block",
+        "0:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--block",
+        "0:2",
+        "--block",
+        "1:2",
+        "--block",
+        "1:4",
+        "--block",
+        "3:4",
+        "--block",
+        "5:1",
+        "--block",
+        "5:4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "30858901e9cc88eb3d12683f2ef4b9138580129f84a3d05c702ae325bffee12d",
+      "nodes": 5,
+      "constraint_checks": 1091
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "1:5",
+        "--block",
+        "4:0",
+        "--block",
+        "5:3",
+        "--block",
+        "5:5",
+        "--block",
+        "6:1",
+        "--block",
+        "6:6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 14,
+      "solutions_sha256": "589277921ad76d5a575347b97d3ee2e17bba6d9c5a118022be01c2b79cace188",
+      "nodes": 29,
+      "constraint_checks": 4157
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--block",
+        "0:1",
+        "--block",
+        "0:2",
+        "--block",
+        "1:1",
+        "--block",
+        "2:1",
+        "--block",
+        "4:4",
+        "--block",
+        "5:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "53171ee1535e0e3a54a44912e7b7e33443b0e3ac0e0b181ad99aef2c435e4bfc",
+      "nodes": 6,
+      "constraint_checks": 1104
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "3:2",
+        "--fix",
+        "1:4",
+        "--block",
+        "0:0",
+        "--block",
+        "0:2",
+        "--block",
+        "1:2",
+        "--block",
+        "2:4",
+        "--block",
+        "3:3",
+        "--block",
+        "6:1",
+        "--block",
+        "6:5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 14
+    },
+    {
+      "command": [
+        "nqueens",
+        "6",
+        "--fix",
+        "0:5",
+        "--fix",
+        "0:2",
+        "--block",
+        "0:2",
+        "--block",
+        "1:2",
+        "--block",
+        "1:4",
+        "--block",
+        "2:2",
+        "--block",
+        "3:2",
+        "--block",
+        "3:5",
+        "--block",
+        "4:0",
+        "--block",
+        "4:1",
+        "--block",
+        "5:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--block",
+        "3:1",
+        "--block",
+        "4:1",
+        "--block",
+        "5:5",
+        "--block",
+        "5:6",
+        "--block",
+        "6:4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 19,
+      "solutions_sha256": "afb75281f78a3d8fe86e1238cf792d24025dc5c65f5429ece44705c1418fc642",
+      "nodes": 38,
+      "constraint_checks": 4734
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "5:0",
+        "--block",
+        "0:5",
+        "--block",
+        "1:0",
+        "--block",
+        "1:2",
+        "--block",
+        "2:3",
+        "--block",
+        "2:5",
+        "--block",
+        "2:6",
+        "--block",
+        "3:0",
+        "--block",
+        "3:5",
+        "--block",
+        "4:0",
+        "--block",
+        "6:6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "de7bfc0529407b3797ebf580e3996d8c4e5a51b19e7f4fb7812aebcd19a57f43",
+      "nodes": 8,
+      "constraint_checks": 861
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "0:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 2
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "6:5",
+        "--block",
+        "0:3",
+        "--block",
+        "2:2",
+        "--block",
+        "2:4",
+        "--block",
+        "3:2",
+        "--block",
+        "3:6",
+        "--block",
+        "5:1",
+        "--block",
+        "6:1",
+        "--block",
+        "6:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "172f07c909f778da6a0998fb630d73a0e7a1e4bcffc0e02951f68636164532fa",
+      "nodes": 4,
+      "constraint_checks": 495
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--block",
+        "0:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 18
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--fix",
+        "0:1",
+        "--block",
+        "0:0",
+        "--block",
+        "1:1",
+        "--block",
+        "1:2",
+        "--block",
+        "3:1",
+        "--block",
+        "3:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 18
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "1:3",
+        "--fix",
+        "1:2",
+        "--block",
+        "0:0",
+        "--block",
+        "0:2",
+        "--block",
+        "0:4",
+        "--block",
+        "2:0",
+        "--block",
+        "2:2",
+        "--block",
+        "2:4",
+        "--block",
+        "4:0",
+        "--block",
+        "4:2",
+        "--block",
+        "4:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "1:0",
+        "--fix",
+        "0:1",
+        "--block",
+        "0:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "0:0",
+        "--block",
+        "0:1",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "2:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 13
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--fix",
+        "1:2",
+        "--block",
+        "2:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 6
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 4
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "1:0",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 1
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "2:4",
+        "--fix",
+        "4:3",
+        "--block",
+        "1:0",
+        "--block",
+        "1:3",
+        "--block",
+        "2:4",
+        "--block",
+        "3:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "4:4",
+        "--block",
+        "0:4",
+        "--block",
+        "3:0",
+        "--block",
+        "4:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "a6e8008ee9dd1d31967e4652290d181478aed5bf6e73e1817bc49654e992c61b",
+      "nodes": 3,
+      "constraint_checks": 129
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--fix",
+        "2:0",
+        "--fix",
+        "3:1",
+        "--block",
+        "0:2",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "1:3",
+        "--block",
+        "2:0",
+        "--block",
+        "3:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "1:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 2
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--block",
+        "0:0",
+        "--block",
+        "1:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 1
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "0:2",
+        "--block",
+        "0:3",
+        "--block",
+        "2:1",
+        "--block",
+        "2:3",
+        "--block",
+        "3:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "d02532560f279acb47fb5b0f01a464fbf4e4327a9c5418fb4df3866a6a1f905d",
+      "nodes": 1,
+      "constraint_checks": 41
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "3:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "873817bb6fe7c8d93a27b8b2b19a27a3c640f523c4a25979e9d5cc903f54a7da",
+      "nodes": 3,
+      "constraint_checks": 159
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "4:3",
+        "--block",
+        "4:4",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "bbc009cd6892cab331853392b1b42e72d6f7e795b40998f4e5b370c1bb255719",
+      "nodes": 3,
+      "constraint_checks": 178
+    },
+    {
+      "command": [
+        "nqueens",
+        "3",
+        "--fix",
+        "2:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 6
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "1:1",
+        "--block",
+        "2:3",
+        "--block",
+        "3:1",
+        "--block",
+        "3:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 1,
+      "constraint_checks": 89
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "4:3",
+        "--fix",
+        "0:5",
+        "--block",
+        "0:4",
+        "--block",
+        "0:6",
+        "--block",
+        "1:3",
+        "--block",
+        "2:0",
+        "--block",
+        "2:3",
+        "--block",
+        "3:5",
+        "--block",
+        "4:1",
+        "--block",
+        "4:3",
+        "--block",
+        "6:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "3:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "873817bb6fe7c8d93a27b8b2b19a27a3c640f523c4a25979e9d5cc903f54a7da",
+      "nodes": 3,
+      "constraint_checks": 147
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--block",
+        "0:0",
+        "--block",
+        "0:3",
+        "--block",
+        "1:1",
+        "--block",
+        "1:3",
+        "--block",
+        "1:5",
+        "--block",
+        "2:2",
+        "--block",
+        "3:1",
+        "--block",
+        "4:0",
+        "--block",
+        "5:0",
+        "--block",
+        "5:3",
+        "--block",
+        "5:4",
+        "--block",
+        "5:6",
+        "--block",
+        "6:3",
+        "--block",
+        "6:5",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 2,
+      "solutions_sha256": "35364e6b7004317a403fc5eb9ac019b61aa03ffd040a418dde7d17cd6b5debd0",
+      "nodes": 9,
+      "constraint_checks": 1391
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "4:1",
+        "--fix",
+        "0:2",
+        "--block",
+        "1:0",
+        "--block",
+        "4:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 17
+    },
+    {
+      "command": [
+        "nqueens",
+        "1",
+        "--fix",
+        "0:0",
+        "--fix",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "0:1",
+        "--fix",
+        "0:1",
+        "--block",
+        "0:1",
+        "--block",
+        "1:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--fix",
+        "1:3",
+        "--block",
+        "0:2",
+        "--block",
+        "1:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "d02532560f279acb47fb5b0f01a464fbf4e4327a9c5418fb4df3866a6a1f905d",
+      "nodes": 1,
+      "constraint_checks": 48
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "3:2",
+        "--fix",
+        "2:1",
+        "--block",
+        "0:4",
+        "--block",
+        "1:2",
+        "--block",
+        "1:3",
+        "--block",
+        "2:4",
+        "--block",
+        "3:4",
+        "--block",
+        "4:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 10
+    },
+    {
+      "command": [
+        "nqueens",
+        "7",
+        "--fix",
+        "4:4",
+        "--block",
+        "0:2",
+        "--block",
+        "1:0",
+        "--block",
+        "2:0",
+        "--block",
+        "2:2",
+        "--block",
+        "3:2",
+        "--block",
+        "3:6",
+        "--block",
+        "4:1",
+        "--block",
+        "4:6",
+        "--block",
+        "5:0",
+        "--block",
+        "5:1",
+        "--block",
+        "5:5",
+        "--block",
+        "6:2",
+        "--block",
+        "6:6",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 149
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--block",
+        "0:0",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 2
+    },
+    {
+      "command": [
+        "nqueens",
+        "5",
+        "--fix",
+        "3:4",
+        "--block",
+        "0:1",
+        "--block",
+        "1:3",
+        "--block",
+        "1:4",
+        "--block",
+        "2:0",
+        "--block",
+        "2:3",
+        "--block",
+        "3:1",
+        "--block",
+        "3:2",
+        "--block",
+        "3:3",
+        "--block",
+        "4:1",
+        "--block",
+        "4:3",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 42
+    },
+    {
+      "command": [
+        "nqueens",
+        "2",
+        "--fix",
+        "0:0",
+        "--fix",
+        "0:0",
+        "--block",
+        "0:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 2
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+A=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 1,
+      "constraint_checks": 18
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+A=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "nodes": 2,
+      "constraint_checks": 15
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+B=C",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "0e8d086ba73b2d5fc2d2b7a7c208bdb0a790f97e571fe9c4c855252757e71e47",
+      "nodes": 41,
+      "constraint_checks": 5276
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+B=C",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "0e8d086ba73b2d5fc2d2b7a7c208bdb0a790f97e571fe9c4c855252757e71e47",
+      "nodes": 853,
+      "constraint_checks": 165790
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+A=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "acad8dc81c5926ed4a51c39e30a6196e4210c252644ff55a5b8e223fc29827e4",
+      "nodes": 5,
+      "constraint_checks": 247
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+B=BA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+C=BA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 7,
+      "solutions_sha256": "4e9adba5aba70c5b6c8faefdd9e5d3e4bd7340814c00d98882efebde685edb3b",
+      "nodes": 10,
+      "constraint_checks": 6031
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+B=CC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 8,
+      "solutions_sha256": "f6b8627239ebf7571145bed0a840695171d2e886750690d940104bd788522428",
+      "nodes": 9,
+      "constraint_checks": 881
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AA+BB=CC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "0e8d086ba73b2d5fc2d2b7a7c208bdb0a790f97e571fe9c4c855252757e71e47",
+      "nodes": 41,
+      "constraint_checks": 9801
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AA+AA=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "acad8dc81c5926ed4a51c39e30a6196e4210c252644ff55a5b8e223fc29827e4",
+      "nodes": 5,
+      "constraint_checks": 472
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AA+AA=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0",
+        "--no-ac3"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "acad8dc81c5926ed4a51c39e30a6196e4210c252644ff55a5b8e223fc29827e4",
+      "nodes": 51,
+      "constraint_checks": 808
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+AB=CD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 23,
+      "solutions_sha256": "d59c14291e74ba9016122246a7c3d13d0d75d55a2ea124591b368cce00cef392",
+      "nodes": 34,
+      "constraint_checks": 2551
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+CD=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+A=BBB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 23
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DA+DB=BBA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BC+CA=AAD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 6,
+      "solutions_sha256": "57ba10349cedc51d662229550cbc573096e8dbaf6400a98cee473fce990f5854",
+      "nodes": 8,
+      "constraint_checks": 3343
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+BA=BBB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 51
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CA+BB=DB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "5eb27b00bd2d362e364aa3e7bc1c58d8de8d76a96ff48ca63a17f55f6d4eca0a",
+      "nodes": 40,
+      "constraint_checks": 4577
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AD+BC=D",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DB+CB=AAD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 7,
+      "solutions_sha256": "dfcd6a1929202114c6e274bfb9e971209bbdaeb54eb74724c2791fcc71aee15e",
+      "nodes": 10,
+      "constraint_checks": 1921
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "C+DBC=ABC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 1,
+      "constraint_checks": 902
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DC+DC=ACB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "4cbee75d1a5c5d0b32ba1c83bcc503b51ccbed55cd06906463906882725cf95a",
+      "nodes": 7,
+      "constraint_checks": 1355
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "D+BD=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 4,
+      "solutions_sha256": "23e2584b97b9fdf4953434e1d7012bba7d355b258090053a9d2f96ed71374e52",
+      "nodes": 5,
+      "constraint_checks": 412
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CA+A=CB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 28,
+      "solutions_sha256": "a9615f6fffd2ddd80e02ec035c0a609a8d75cd50b089d1e6e16c9158ed5e3799",
+      "nodes": 33,
+      "constraint_checks": 1494
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BAB+CBB=C",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BA+CC=DC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "5eb27b00bd2d362e364aa3e7bc1c58d8de8d76a96ff48ca63a17f55f6d4eca0a",
+      "nodes": 40,
+      "constraint_checks": 4577
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+B=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+BC=BD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 192,
+      "solutions_sha256": "3b3a68529584aeb304b1012e7674e79543426b1db433b66d7e7c60e134e79157",
+      "nodes": 263,
+      "constraint_checks": 36869
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+AAA=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "B+DA=DC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 192,
+      "solutions_sha256": "28249e331aca6888d207e6fd1dd28058380744ec3c71b31943a6a9d4ee7680ee",
+      "nodes": 263,
+      "constraint_checks": 36868
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+DAB=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CD+BB=AAA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 6,
+      "solutions_sha256": "a3addd11af2a7d083a9985fbafb8fc0e9652d229e1259fdbc9b57c9e06e6a557",
+      "nodes": 7,
+      "constraint_checks": 3140
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "B+A=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 9,
+      "solutions_sha256": "7286e6ba5670de03cd5893448a3c9153f9f00b2613a8d3986133bf941d47225c",
+      "nodes": 10,
+      "constraint_checks": 437
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AC+BD=DB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 21,
+      "solutions_sha256": "4dd2e63c99392985c4c19a1b07c1e443fe51d40f28e69725bd1f26f71132a65c",
+      "nodes": 29,
+      "constraint_checks": 13227
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CBC+AB=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CA+CB=DB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 28,
+      "solutions_sha256": "e55b70b0b9d5b3b1665a2f64df747d6af3b9461b515b775cce398e6a2319932a",
+      "nodes": 33,
+      "constraint_checks": 1872
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+BAA=ABA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "D+DC=BAB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "8c56a2ccd0aa015bf6e3c05188e61fc122e269f29e42ec77b6080e29c92e5ec8",
+      "nodes": 1,
+      "constraint_checks": 1000
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AA+C=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BD+B=CA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 28,
+      "solutions_sha256": "2a2b2d172d87f90ac85cbe55a64510f8777333bcfebd6bc3130776a49a8b5eab",
+      "nodes": 38,
+      "constraint_checks": 8646
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DAA+CB=D",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "D+C=AB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 30,
+      "solutions_sha256": "6baca35e682ac4a1119c34c2c22467544996f5e7c60d51cd3cacbdbaa451793f",
+      "nodes": 38,
+      "constraint_checks": 4415
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AAA+AA=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BA+A=BA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 9,
+      "solutions_sha256": "5465d160781b598c312f808fc561aae942981bdf97986461a14d5038d99492a9",
+      "nodes": 10,
+      "constraint_checks": 316
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AAB+ACC=AC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AD+BC=CB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 21,
+      "solutions_sha256": "455aab46c29bbf33a8ee292c63dcaeb59f012ce5a232af64e05a6b8b84f9d2ba",
+      "nodes": 29,
+      "constraint_checks": 13227
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AAA+BAA=AA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+AA=CD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 27,
+      "solutions_sha256": "4ff0af203fb30ebd28dfc2dcb5808f0524f4abe3876255c691619d46bf1eecce",
+      "nodes": 37,
+      "constraint_checks": 5209
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BAB+BBB=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CA+A=CB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 28,
+      "solutions_sha256": "a9615f6fffd2ddd80e02ec035c0a609a8d75cd50b089d1e6e16c9158ed5e3799",
+      "nodes": 33,
+      "constraint_checks": 1494
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AB+CC=BC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CD+CC=AAB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 3,
+      "solutions_sha256": "90eca83bd228f7990e4c083109f9b1c73638672bc96f2d1dbbf804da70069392",
+      "nodes": 4,
+      "constraint_checks": 2085
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "C+ACC=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BA+B=BC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 32,
+      "solutions_sha256": "0e8d086ba73b2d5fc2d2b7a7c208bdb0a790f97e571fe9c4c855252757e71e47",
+      "nodes": 40,
+      "constraint_checks": 5526
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BAA+ABC=C",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+BC=BD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 192,
+      "solutions_sha256": "3b3a68529584aeb304b1012e7674e79543426b1db433b66d7e7c60e134e79157",
+      "nodes": 263,
+      "constraint_checks": 36869
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CD+D=C",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AD+AC=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 24,
+      "solutions_sha256": "7bf4e7065fb45b49edca36c253263de45fc6f8eb00358b8a252b562a77b57e46",
+      "nodes": 33,
+      "constraint_checks": 5885
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BD+DDA=D",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BC+BA=CD",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 26,
+      "solutions_sha256": "90255167dd83688feaa7dbf1cef6355ee078b2aa4e0e5f9b7faae1ebb61f1c82",
+      "nodes": 36,
+      "constraint_checks": 6422
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CB+A=AA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 1,
+      "constraint_checks": 880
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+CB=CB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 72,
+      "solutions_sha256": "9443b98e0b06c85fdddf2e85bfaef8df7613b1435009c2beb6522b19a107c93e",
+      "nodes": 82,
+      "constraint_checks": 3082
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CC+BA=CB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AC+B=BA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 7,
+      "solutions_sha256": "4e9adba5aba70c5b6c8faefdd9e5d3e4bd7340814c00d98882efebde685edb3b",
+      "nodes": 10,
+      "constraint_checks": 6234
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "CAA+ACB=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+BA=BC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 28,
+      "solutions_sha256": "2bb6762ec289d03c7df88b3b3faf157823357dd35a900fbf5817c1789401a47c",
+      "nodes": 33,
+      "constraint_checks": 1494
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DDC+D=A",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "A+B=B",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 9,
+      "solutions_sha256": "5465d160781b598c312f808fc561aae942981bdf97986461a14d5038d99492a9",
+      "nodes": 10,
+      "constraint_checks": 437
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DDA+B=BBA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DB+A=DC",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 192,
+      "solutions_sha256": "28249e331aca6888d207e6fd1dd28058380744ec3c71b31943a6a9d4ee7680ee",
+      "nodes": 263,
+      "constraint_checks": 36868
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BAB+AB=AAB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "DC+AD=AAB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 6,
+      "solutions_sha256": "246c52c70380cdc2e6eeb79fa3ba1bd07463b8bcf4b3963f2eb69d35bf0ebaa7",
+      "nodes": 7,
+      "constraint_checks": 1537
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "AA+BB=BB",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "BB+CD=BAA",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "72c68b2091c23d15256c4eab42122bbc94fcee5b7a4d0e4d63188e58529e2f41",
+      "nodes": 1,
+      "constraint_checks": 1404
+    },
+    {
+      "command": [
+        "cryptarithm",
+        "SEND+MORE=MONEY",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 1,
+      "solutions_sha256": "e3977a2c3f6b0116eb31c69bc642f4f3220514b5836c4aa8e0e7b71f459e8072",
+      "nodes": 5,
+      "constraint_checks": 22062
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--fix",
+        "0:1",
+        "--fix",
+        "0:2",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    },
+    {
+      "command": [
+        "nqueens",
+        "4",
+        "--fix",
+        "0:1",
+        "--block",
+        "0:1",
+        "--limit",
+        "0",
+        "--timeout-ms",
+        "0",
+        "--trace-limit",
+        "0"
+      ],
+      "solution_count": 0,
+      "solutions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "nodes": 0,
+      "constraint_checks": 0
+    }
+  ],
+  "reproducibility_sha256": "e681b07bdf2ecd2412ffe530e64a76a32511c2f2b91328efed6fbd1694949a14"
+}

@@ -1,0 +1,23 @@
+{
+  "puzzle": "8-Queens",
+  "repeats": 7,
+  "note": "Timing is hardware-dependent; nodes and checks are deterministic. AC-3 has queue overhead and is not always faster.",
+  "results": [
+    {
+      "ac3": true,
+      "solutions": 92,
+      "nodes": 245,
+      "decisions": 408,
+      "constraint_checks": 41936,
+      "median_ms": 1.581
+    },
+    {
+      "ac3": false,
+      "solutions": 92,
+      "nodes": 2057,
+      "decisions": 15720,
+      "constraint_checks": 189754,
+      "median_ms": 1.267
+    }
+  ]
+}
